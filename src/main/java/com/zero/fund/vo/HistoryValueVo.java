@@ -16,16 +16,40 @@ package com.zero.fund.vo;
  * "FHSP": ""
  */
 public class HistoryValueVo {
+    /**
+     * 基金代码
+     */
     private String CODE;
+    /**
+     * 净值日期
+     */
     private String FSRQ;
+    /**
+     * 单位净值
+     */
     private String DWJZ;
+    /**
+     * 累计净值
+     */
     private String LJJZ;
     private String SDATE;
     private String ACTUALSYI;
     private String NAVTYPE;
+    /**
+     * 净值日增长率
+     */
     private String JZZZL;
+    /**
+     * 申购状态
+     */
     private String SGZT;
+    /**
+     * 赎回状态
+     */
     private String SHZT;
+    /**
+     *
+     */
     private String FHFCZ;
     private String FHFCBZ;
     private String DTYPE;
